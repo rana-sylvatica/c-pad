@@ -1,0 +1,7 @@
+Credit to the PCB design of the PhobGCC project (https://github.com/PhobGCC) for the following aspects of the c-pad project
+
+ - board outline
+ - shell rib markings
+ - alignment pin hole sizes and positioning
+ - ribbon cable header
+ - ADC routing and positioning
