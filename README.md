@@ -12,7 +12,7 @@ This repository contains the following design files:
 
 (for information about the PhobGCC project [an open-source replacement motherboard for the GameCube controller], check out https://github.com/PhobGCC)
 
-As of right now, I am selling these c-pad modkits for $30 USD on my shop at https://ko-fi.com/ranalabs/shop
+As of right now, I am selling these c-pad modkits for $30 USD on my shop at: https://ko-fi.com/ranalabs/shop
 
 However, you can make your own for a lower price than that (especially if you make for a few friends!) using the designs posted here.
 
