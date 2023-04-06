@@ -26,6 +26,8 @@ However, if a modified design is distributed (either digitally or physically bey
 
 Note: if selling c-pad kits, PLEASE link to this repo (or your fork of this repo, if you modify the design) on your store page.  If selling in-person, I would appreciate if it is communicated that this is an open-source project.
 
+All these files are posted as-is. This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. 
+
 ### Compatibility
 
 The c-pad design files here are split into two versions.  
@@ -62,6 +64,11 @@ Resin 3D printing is the best way to manufacture the c-pad core.  Black Resin fr
 The c-pad buttons can be manufactured with resin printing, SLS/MJF nylon printing, or resin casting
 
 SLS printing in white PA12 and dyeing with RIT dye is a nice way to get durable, vibrant, cheap buttons.  I use https://www.jawstec.com/ for this.
+
+If ordering cores/buttons from JLC/JawsTec (or other printing service) use the panelized versions of the files for cheaper unit price (labeled as cpad_core_x4 and cpad_button_x8 in the files).  If printing the parts yourself, use the individual core/button files.
+
+![image](https://user-images.githubusercontent.com/95242582/230277555-58ca9cdf-15be-4db8-8585-f5c9bf59956c.png)
+![image](https://user-images.githubusercontent.com/95242582/230277637-b9cb4bb7-bb42-40e7-93e3-4c4c355f6661.png)
 
 ![FrWmiTQWwAI0IbI](https://user-images.githubusercontent.com/95242582/230267061-c33eb53b-f4a8-41f7-abc7-e3f1ae287048.jpg)
 
