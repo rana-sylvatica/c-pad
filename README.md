@@ -26,6 +26,12 @@ However, if a modified design is distributed (either digitally or physically bey
 
 ### Compatibility
 
+The c-pad design files here are split into two versions.  
+
+One version is compatible with T3 OEM motherboards (and T1/T2 OEM motherboards with JST c-stick cables, but NOT T1/T2 that have soldered ribbon cables [different pinout]), and PhobGCC 1.X.  May also be compatible with Goomwave (untested as of yet).  This version has a 4-pin cable header on the PCB.
+
+The other version is compatible with PhobGCC 2.0 boards.  This version has a 6-pin cable header on the PCB.
+
 ### How it works
 
 The c-pad PCB converts digital button presses to voltage levels that correspond to appropriate analog values using a resistor network (schematic below)
@@ -42,16 +48,37 @@ You may note that the upper left and lower right diagonals fall well outside the
 
 The following components are required to make a c-pad module:
 - 1x PCB
-- 1x center insert (cpad_core in the files)
-- 4x button
-- 1x screw (
-- 1x 
+- 1x c-pad core
+- 4x c-pad button
+- 1x screw (https://www.mcmaster.com/97349A413/ - there's probably other similar screws on Amazon/AliExpress/etc that would work)
+- 1x ribbon cable (https://kadano.biz/phobgcc-2-0-c-stick-ribbon-cables-6pin/ - can also use individual wires but is more difficult.  If making for OEM/Phob1.X and only 6-pin ribbon cables are available, just cut off two of the wires to make a 4-pin cable)
+
+Resin 3D printing is the best way to manufacture the c-pad core.  Black Resin from JLCPCB (not Imagine Black - this is confusing as JLC recently added a 2nd black resin option) is my favorite for this.  Consumer-grade MSLA printers also do a nice job in my experience.
+
+The c-pad buttons can be manufactured with resin printing, SLS/MJF nylon printing, or resin casting
+
+SLS printing in white PA12 and dyeing with RIT dye is a nice way to get durable, vibrant, cheap buttons.  I use https://www.jawstec.com/ for this.
+
+![FrWmiTQWwAI0IbI](https://user-images.githubusercontent.com/95242582/230267061-c33eb53b-f4a8-41f7-abc7-e3f1ae287048.jpg)
 
 ### How to assemble
 
+Assembly is very simple:
+ - put the buttons in the core
+ - put together the PCB and core such that the alignment pegs line up and the slots in the core that mate with the GCC shell ribs are pointing "down" and "in" as seen from the perspective of someone holding the GCC (see image below).
+
+![IMG20230404185115](https://user-images.githubusercontent.com/95242582/230266436-d84cf887-699b-408d-a1c6-2d527fa0cb17.jpg)
 
 ### How to install
 
+Installation is also simple:
+ - desolder the existing cstick cable from the GCC motherboard
+ - solder in the new cable 
+ - solder the other end of the new cable to the c-pad PCB
+ - put back in shell
+ - should look like the image below
+ 
+![FsV6dreWIAUIO0w](https://user-images.githubusercontent.com/95242582/230266667-c7480798-2123-4ec5-b0c6-69174c922d44.jpg)
 
 
 ### Future work?
