@@ -10,6 +10,8 @@ This repository contains the following design files:
  - KiCad PCB design files for both the OEM/Phob1.X and Phob2.0 versions of the project
  - PCB fabrication files (Gerber, BOM, CPL) for both the OEM/Phob1.X and Phob2.0 versions of the project
 
+(for information about the PhobGCC project [an open-source replacement motherboard for the GameCube controller], check out https://github.com/PhobGCC)
+
 ### Licensing
 
 This project is licensed under CERN Open Hardware Licence Version 2 - Strongly Reciprocal
