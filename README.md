@@ -22,7 +22,9 @@ In short, this means:
  - License may be terminated for non-compliance
 
 Anyone may use these design files to make their own c-pad for personal use or to sell, or modify the design however they wish.
-However, if a modified design is distributed (either digitally or physically beyond personal use), the modified design must be publically posted under the same terms.
+However, if a modified design is distributed (either digitally or physically beyond personal use), the modified design must be publicly posted under the same terms.
+
+Note: if selling c-pad kits, PLEASE link to this repo (or your fork of this repo, if you modify the design) on your store page.  If selling in-person, I would appreciate if it is communicated that this is an open-source project.
 
 ### Compatibility
 
@@ -53,6 +55,8 @@ The following components are required to make a c-pad module:
 - 1x screw (https://www.mcmaster.com/97349A413/ - there's probably other similar screws on Amazon/AliExpress/etc that would work)
 - 1x ribbon cable (https://kadano.biz/phobgcc-2-0-c-stick-ribbon-cables-6pin/ - can also use individual wires but is more difficult.  If making for OEM/Phob1.X and only 6-pin ribbon cables are available, just cut off two of the wires to make a 4-pin cable)
 
+The PCB must be ordered with SMD assembly for the resistors, capacitors, switches, and (for the Phob 2.0 version) the ADC.  I use JLCPCB for these boards.  If any components are out of stock they must be pre-ordered through JLC and received into your inventory prior to ordering the board, otherwise the board will be shipped without that component.  PCB settings: FR4 substrate, 1.6mm thickness, HASL lead free finish, SMD assembly on top side.
+
 Resin 3D printing is the best way to manufacture the c-pad core.  Black Resin from JLCPCB (not Imagine Black - this is confusing as JLC recently added a 2nd black resin option) is my favorite for this.  Consumer-grade MSLA printers also do a nice job in my experience.
 
 The c-pad buttons can be manufactured with resin printing, SLS/MJF nylon printing, or resin casting
@@ -72,7 +76,7 @@ Assembly is very simple:
 ### How to install
 
 Installation is also simple:
- - desolder the existing cstick cable from the GCC motherboard
+ - desolder the existing c-stick cable from the GCC motherboard
  - solder in the new cable 
  - solder the other end of the new cable to the c-pad PCB
  - put back in shell
